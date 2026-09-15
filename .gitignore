@@ -1,0 +1,22 @@
+# Build output — regenerable, never committed
+build/
+build-*/
+cmake-build-*/
+
+# Compiled artefacts
+*.o
+*.a
+*.dylib
+*.dSYM/
+a.out
+
+# Captured market data (will get large)
+data/
+*.bin
+
+# macOS
+.DS_Store
+
+# Editors
+*.swp
+.idea/
